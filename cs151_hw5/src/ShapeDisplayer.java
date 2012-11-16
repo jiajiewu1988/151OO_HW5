@@ -11,8 +11,8 @@ public class ShapeDisplayer
 
 
       frame.addShape(new SnowMan(0,0,20));
-      frame.addShape(new Car(0,0, 50));
-      // frame.addShape(create your composite shape here);
+      frame.addShape(new CarShape(0,0, 50));
+      frame.addShape(new MyShape(0,0, 50));
       
       frame.setSize(300, 400);
       frame.setTitle("Shape Displayer");
